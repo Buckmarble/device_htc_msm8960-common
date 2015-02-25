@@ -132,9 +132,11 @@
     {RIL_REQUEST_SET_INITIAL_ATTACH_APN, dispatchSetInitialAttachApn, responseVoid},
     {RIL_REQUEST_IMS_REGISTRATION_STATE, dispatchVoid, responseInts},
     {RIL_REQUEST_IMS_SEND_SMS, dispatchImsSms, responseSMS},
+<<<<<<< HEAD
     {RIL_REQUEST_GET_DATA_CALL_PROFILE, dispatchInts, responseGetDataCallProfile},
     {RIL_REQUEST_SET_UICC_SUBSCRIPTION, dispatchUiccSubscripton, responseVoid},
     {RIL_REQUEST_SET_DATA_SUBSCRIPTION, dispatchVoid, responseVoid},
+=======
     {RIL_REQUEST_SIM_TRANSMIT_APDU_BASIC, dispatchSIM_APDU, responseSIM_IO},
     {RIL_REQUEST_SIM_OPEN_CHANNEL, dispatchString, responseInts},
     {RIL_REQUEST_SIM_CLOSE_CHANNEL, dispatchInts, responseVoid},
@@ -151,3 +153,4 @@
     {RIL_REQUEST_SET_DC_RT_INFO_RATE, dispatchInts, responseVoid},
     {RIL_REQUEST_SET_DATA_PROFILE, dispatchDataProfile, responseVoid},
     {RIL_REQUEST_SHUTDOWN, dispatchVoid, responseVoid},
+>>>>>>> remotes/cm-12.0/cm-12.0

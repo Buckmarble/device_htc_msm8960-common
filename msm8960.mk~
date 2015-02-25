@@ -95,6 +95,7 @@ PRODUCT_PACKAGES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     make_ext4fs \
     setup_fs
 
@@ -125,8 +126,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=0 \
     ro.use_data_netmgrd=true \
     wifi.interface=wlan0
+=======
     dhcpcd.conf \
     hostapd \
     hostapd_default.conf \
     wpa_supplicant \
     wpa_supplicant.conf
+>>>>>>> remotes/cm-12.0/cm-12.0

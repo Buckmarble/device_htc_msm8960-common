@@ -70,9 +70,9 @@ USE_OPENGL_RENDERER := true
 TARGET_PROVIDES_LIBLIGHT := true
 
 # Power
+<<<<<<< HEAD
 TARGET_USES_CM_POWERHAL := true
 TARGET_POWERHAL_NO_TOUCH_BOOST := true
-TARGET_POWERHAL_VARIANT := qcom
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \
@@ -99,6 +99,9 @@ BOARD_SEPOLICY_UNION += \
     ueventd.te \
     wpa_socket.te \
     wpa.te
+=======
+TARGET_POWERHAL_VARIANT := qcom
+>>>>>>> remotes/cm-12.0/cm-12.0
 
 # Recovery
 TARGET_RECOVERY_DEVICE_MODULES += chargeled

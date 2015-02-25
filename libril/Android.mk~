@@ -32,6 +32,11 @@ endif
 ifeq ($(BOARD_RIL_FIVE_SEARCH_RESPONSES),true)
 LOCAL_CFLAGS += -DRIL_FIVE_SEARCH_RESPONSES
 endif
+<<<<<<< HEAD
+
+LOCAL_MODULE:= libril
+=======
+>>>>>>> remotes/cm-12.0/cm-12.0
 
 LOCAL_MODULE:= libril
 
